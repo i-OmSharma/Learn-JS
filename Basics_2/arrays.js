@@ -27,12 +27,12 @@ const myArr2= new Array(1,2,3,4,5)
 // slice , splice
 
 console.log("A ", myArr);
-const myn1 = myArr.slice(1,3) //-> this includes 1,2 exclude 3.1 is starting and 3 is the point till bwfore we have to take it.
+const myn1 = myArr.slice(1,3) //-> returns a copy a section of a array.this includes 1,2 exclude 3.1 is starting and 3 is the point till bwfore we have to take it.
 
 console.log(myn1);
 console.log("B ",myArr);
 
-const myn2 = myArr.splice(1,3) //-> this includes 1,2,3.it starts from 1 and ends with 3,it included all elements.
+const myn2 = myArr.splice(1,3) //-> used to change the contents of an array by removing or replacing existing elements and/or adding new elements. It modifies the original array and returns an array containing the removed elements.
 console.log("C ",myArr);
 console.log(myn2);
 
