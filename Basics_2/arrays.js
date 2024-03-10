@@ -32,7 +32,7 @@ const myn1 = myArr.slice(1,3) //-> returns a copy a section of a array.this incl
 console.log(myn1);
 console.log("B ",myArr);
 
-const myn2 = myArr.splice(1,3) //-> used to change the contents of an array by removing or replacing existing elements and/or adding new elements. It modifies the original array and returns an array containing the removed elements.
+const myn2 = myArr.splice(1,3) //-> used to change the contents of an array by removing or replacing existing elements and/or adding new elements. It modifies the original array and returns an array containing the removed elements. 
 console.log("C ",myArr);
 console.log(myn2);
 
