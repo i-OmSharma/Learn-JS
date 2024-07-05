@@ -35,5 +35,28 @@
 console.log(document) -> to see html 
 console.dir(document) -> to see full detail of document in browser 
 setAttribute()- change the valuea  
+-->
 
-innerHTML -> shows HTML-->
+<!--VALUE
+    .getElementById().id,className - gives the value.
+                      .getAttribute('') - pass the key get the value.
+                      .setAAttribute('') - pass the value it will overwirte it
+-->
+
+<!-- CONTENT
+.textContent - gives the complete content,those also which are available but hidden by some property.
+.innerHTML - it gives complete content as they it supports the HTML tags.
+.innerText - gives the content which is visible only.
+-->
+
+<!-- SELECTOR
+    document.querySelector() - works same as the css selector.It selects the first item.
+    document.querySelectorAll() - Here we get the NodeList,here we have to specify which one we want to change.
+    In NodeList try to use the foreach loop,coz its not array we cant use the map there.
+    we have to convert NodeList to Array then we can use it.
+ -->
+ <!-- HTML COLLECTIONS
+    const tempClassList = document.getElementsByClassName(list-item) - gives the HTML COLLECTIONS
+    convert to Array
+    Array.from(tempClassList)
+  -->
