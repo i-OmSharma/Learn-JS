@@ -51,3 +51,5 @@ for (let index = 1; index <= 20; index++) {
     console.log(`Vakue of index id ${index}`);
     
 }
+
+//
